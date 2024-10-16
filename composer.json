@@ -1,0 +1,13 @@
+{
+    "name": "sushmayadav/composer-tutorial",
+    "autoload": {
+        "files": ["src/helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "KnowledgeThrusters",
+            "email": "knowledgethrusters@gmail.com"
+        }
+    ],
+    "require": {}
+}
