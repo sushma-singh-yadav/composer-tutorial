@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Spinach' => $baseDir . '/src/helpers.php',
+    'Vegetable' => $baseDir . '/src/index2.php',
 );

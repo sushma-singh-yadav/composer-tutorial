@@ -1,7 +1,7 @@
 {
     "name": "sushmayadav/composer-tutorial",
     "autoload": {
-        "files": ["src/helpers.php"]
+        "classmap": ["src/"]
     },
     "authors": [
         {

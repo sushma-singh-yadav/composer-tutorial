@@ -6,12 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInite67c618ad094c239f4f5e73addf5e175
 {
-    public static $files = array (
-        'a9df79295f0e66ae9f2acf1e957dc21f' => __DIR__ . '/../..' . '/src/helpers.php',
-    );
-
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Spinach' => __DIR__ . '/../..' . '/src/helpers.php',
+        'Vegetable' => __DIR__ . '/../..' . '/src/index2.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
